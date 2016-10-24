@@ -1,0 +1,11 @@
+{{yield}}
+
+<div>
+  Pick a color
+</div>
+
+{{#each colors as |color| }}
+  {{background-color color}}
+{{/each}}
+
+<span>You picked: {{picked}}</span>
