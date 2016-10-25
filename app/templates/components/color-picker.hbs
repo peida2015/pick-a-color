@@ -3,8 +3,9 @@
 <div>
   Pick a color
 </div>
+<input type="color" value={{picked}} onchange={{action 'colorPicked'}}>
 
-<div onclick={{action 'colorPicked'}}>
+<div class='container' onclick={{action 'colorPicked'}}>
 {{#each colors as |color| }}
   <!-- action cannot be attached directly on the output of htmlSafe helper -->
     {{background-color color}}

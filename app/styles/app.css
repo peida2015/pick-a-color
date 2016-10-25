@@ -2,3 +2,8 @@
   width: 50px;
   height: 50px;
 }
+
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+}

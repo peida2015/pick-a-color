@@ -6,7 +6,11 @@ export default Ember.Component.extend({
 
   actions: {
     colorPicked: function (evt) {
-      let selectedColor = evt.target.getAttribute('value');
+      if (evt.type === "change") {
+        var selectedColor = Ember.$('input').val();
+      } else {
+        var selectedColor = evt.target.getAttribute('value');
+      };
       this.set('picked', selectedColor);
     }
   }
