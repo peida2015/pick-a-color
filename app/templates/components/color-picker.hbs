@@ -4,8 +4,11 @@
   Pick a color
 </div>
 
+<div onclick={{action 'colorPicked'}}>
 {{#each colors as |color| }}
-  {{background-color color}}
+  <!-- action cannot be attached directly on the output of htmlSafe helper -->
+    {{background-color color}}
 {{/each}}
+</div>
 
-<span>You picked: {{picked}}</span>
+<span>You picked: {{background-color picked}}</span>
