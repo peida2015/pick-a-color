@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'pick-a-color',
     environment: environment,
-    rootURL: '/',
+    rootURL: '/new-app/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
