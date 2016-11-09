@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'new-app',
+    modulePrefix: 'pick-a-color',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
