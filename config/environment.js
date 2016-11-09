@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'pick-a-color',
     environment: environment,
-    rootURL: '/new-app/',
+    rootURL: '/pick-a-color/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -40,7 +40,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.locationType = 'hash';
-    ENV.rootURL = '/new-app/';
+    ENV.rootURL = '/pick-a-color/';
 
   }
 

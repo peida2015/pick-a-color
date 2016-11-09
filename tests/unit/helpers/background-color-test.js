@@ -1,5 +1,5 @@
 
-import { backgroundColor } from 'new-app/helpers/background-color';
+import { backgroundColor } from 'pick-a-color/helpers/background-color';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | background color');

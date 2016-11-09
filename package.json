@@ -1,7 +1,7 @@
 {
-  "name": "new-app",
+  "name": "pick-a-color",
   "version": "0.0.0",
-  "description": "Small description for new-app goes here",
+  "description": "Small description for pick-a-color goes here",
   "private": true,
   "directories": {
     "doc": "doc",
